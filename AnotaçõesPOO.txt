@@ -1,0 +1,42 @@
+Material feito com base nas aulas de Leonardo de Lima Buta da DIO
+
+---------------------------------------------------------------------------
+Progamação Orientada a Objetos(POO): É um paradigma de progamação
+
+Dentro da técnica de POO, existem 4 pilares: 
+
+-Abstração: Abstrair um objeto do mundo real para um contexto específico, considerando apenas os atributos importantes
+
+-Encapsulamento: Serve para proteger a minha classe de definir limites para alteração de suas propriedades. Serve para ocultar seu comportamento e expor somente o necessário 
+
+-Herança: Nos permite reutilizar atributos, métodos e comportamentos de uma classe em outras classes. Podemos "herdar classes". Serve para agrupar objetos que são do mesmo tipo, porém com características diferentes. 
+
+-Polimorfismo: vem do grego e significa "muitas formas. O polimorfismo pode sobrescrever métodos das classes filhas para que se comportem de maneira diferente e ter sua própria aplicação. Existe o polimorfismo em tempo de compilação(Overload/Early Binding) e o polimorfismo em tempo de execução(Override/Late Binding)
+
+--------------------------------------------------------------------------
+
+-> Uma classe abstrata tem como objetivo ser exclusivamente como um molde para ser herdado, logo não pode ser instanciado. Você pode implementar métodos ou deixa-los a cargo de quem herdar
+
+---------------------------------------------------------------------------
+
+-> Uma classe selada tem como objetivo impedir que outras classes derivem dela, logo uma classe selada não possui classes filhas. Também é possível ter métodos e propriedades selados, logo não podemos fazer polimorfismo com métodos selados.
+
+---------------------------------------------------------------------------
+
+->A classe System.Object é a mãe de todas as classes na hierarquia do .NET. Todas as classes derivam, direta ou indiretamente da classe Object, e ela tem como objetivo prover serviços de baixo nível para as classes filhas.
+
+---------------------------------------------------------------------------
+
+->Uma interface é um contrato que pode ser implementado por uma classe.
+
+É como se fosse uma classe abstrata, podendo definir métodos abstratos para serem implementados. Logo uma interface também não pode ser instanciada.
+
+A vantagem é que as interfaces "substituem" o conceito de heranças múltiplas, já que o CSharp não possui. 
+
+---------------------------------------------------------------------------
+
+-> O Csharp nos apresenta algumas classes estáticas que facilitam o trabalho com arquivos. Como são estáticas não precisamos instanciá-las. 
+
+- File: Serve para manipular arquivos 
+- Directory: Operações com diretórios
+- Path: Organizar os caminhos de uma maneira lógica para trabalhar com File e Directory 
